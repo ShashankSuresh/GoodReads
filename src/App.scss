@@ -1,0 +1,30 @@
+.good-deads {
+  margin: 0 auto;
+  text-align: center;
+
+  .list-container {
+    padding-inline-start: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    list-style: none;
+    .list-item {
+      margin-bottom: 20px;
+      border: 1px solid black;
+      p {
+        width: 200px;
+        margin: 0 auto;
+      }
+    }
+  }
+  .pagination {
+    padding-inline-start: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    .page-item {
+      margin-left: 20px;
+    }
+  }
+}
